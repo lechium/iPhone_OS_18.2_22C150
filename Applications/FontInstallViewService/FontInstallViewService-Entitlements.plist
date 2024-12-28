@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.FontInstallViewService</string>
+	<key>com.apple.UIKit.vends-view-services</key>
+	<true/>
+	<key>com.apple.private.coreservices.canmaplsdatabase</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.surfboard.scenesessionservice</string>
+	</array>
+	<key>com.apple.surfboard.scene-state-assertion</key>
+	<true/>
+	<key>com.apple.surfboard.scenesession-custom-focus-order</key>
+	<integer>1001</integer>
+	<key>com.apple.surfboard.scenesession-updates</key>
+	<true/>
+	<key>com.apple.surfboard.system-elements-assertion-foreground-active</key>
+	<true/>
+</dict>
+</plist>

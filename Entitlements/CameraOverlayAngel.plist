@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.PerfPowerServices.data-donation</key>
+	<true/>
+	<key>com.apple.QuartzCore.secure-mode</key>
+	<true/>
+	<key>com.apple.backboardd.touchDeliveryObservation</key>
+	<true/>
+	<key>com.apple.coremedia.cameraviewfinder</key>
+	<true/>
+	<key>com.apple.private.biome.writer</key>
+	<array>
+		<string>Discoverability.Signals</string>
+	</array>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.PerfPowerTelemetryClientRegistrationService</string>
+		<string>com.apple.coremedia.cameraviewfinder</string>
+		<string>com.apple.powerlog.plxpclogger.xpc</string>
+	</array>
+	<key>com.apple.springboard.private.capture-button-full-fidelity-events</key>
+	<true/>
+</dict>
+</plist>

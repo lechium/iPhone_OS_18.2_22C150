@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.accounts.appleaccount.fullaccess</key>
+	<true/>
+	<key>com.apple.modelcatalog.full-access</key>
+	<true/>
+	<key>com.apple.private.MobileGestalt.AllowedProtectedKeys</key>
+	<array>
+		<string>re6Zb+zwFKJNlkQTUeT+/w</string>
+	</array>
+	<key>com.apple.private.accounts.allaccounts</key>
+	<true/>
+	<key>com.apple.private.bmk.allow</key>
+	<true/>
+	<key>com.apple.private.familycircle</key>
+	<true/>
+	<key>com.apple.private.ind.client</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.modelcatalog.catalog</string>
+		<string>com.apple.ind.cloudfeatures</string>
+		<string>com.apple.adid</string>
+		<string>com.apple.passd.in-app-payment</string>
+		<string>com.apple.xpc.amsaccountsd</string>
+		<string>com.apple.corefollowup.agent</string>
+		<string>com.apple.ind.xpc</string>
+		<string>com.apple.mobile.keybagd.xpc</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.Security</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<array>
+		<string>com.apple.icloud.gm</string>
+		<string>kCFPreferencesAnyApplication</string>
+		<string>com.apple.cloud.quota</string>
+		<string>com.apple.mobileslideshow</string>
+		<string>com.apple.CloudSubscriptionFeatures</string>
+		<string>com.apple.CloudSubscriptionFeatures.cache</string>
+		<string>com.apple.CloudSubscriptionFeatures.diagnostic</string>
+		<string>com.apple.CloudSubscriptionFeatures.geoCache</string>
+		<string>com.apple.CloudSubscriptionFeatures.ticket.cache</string>
+		<string>com.apple.CloudSubscriptionFeatures.gm.bypass</string>
+		<string>com.apple.CloudSubscriptionFeatures.followup.engagement</string>
+		<string>com.apple.CloudSubscriptionFeatures.optIn</string>
+	</array>
+	<key>com.apple.security.network.client</key>
+	<true/>
+</dict>
+</plist>

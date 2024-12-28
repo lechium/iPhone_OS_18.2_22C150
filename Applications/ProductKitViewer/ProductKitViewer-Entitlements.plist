@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.sharingd</string>
+	<key>com.apple.developer.icloud-container-environment</key>
+	<string>production</string>
+	<key>com.apple.developer.icloud-container-identifiers</key>
+	<string>com.apple.productkit.b389personalization</string>
+	<key>com.apple.developer.icloud-services</key>
+	<array>
+		<string>CloudKit</string>
+	</array>
+	<key>com.apple.private.assets.accessible-asset-types</key>
+	<array>
+		<string>com.apple.MobileAsset.ProductKit</string>
+		<string>com.apple.MobileAsset.SharingDeviceAssets</string>
+	</array>
+	<key>com.apple.private.cloudkit.setEnvironment</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-write</key>
+	<array>
+		<string>/private/var/mobile/Library/ProductKit/</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.ProductKit</string>
+	</array>
+	<key>com.apple.springboard.remote-alert</key>
+	<true/>
+</dict>
+</plist>

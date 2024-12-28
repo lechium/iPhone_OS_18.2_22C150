@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Signpost-Persisted</key>
+	<true/>
+	<key>application-identifier</key>
+	<string>com.apple.HearingTest</string>
+	<key>com.apple.AudioAccessoryServices</key>
+	<true/>
+	<key>com.apple.HearingModeService</key>
+	<true/>
+	<key>com.apple.avfaudio.devicetest</key>
+	<true/>
+	<key>com.apple.bluetooth.internal</key>
+	<true/>
+	<key>com.apple.bluetooth.system</key>
+	<true/>
+	<key>com.apple.private.security.container-required</key>
+	<true/>
+	<key>com.apple.security.exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.avfaudio.devicetest.service</string>
+		<string>com.apple.AudioAccessoryServices</string>
+		<string>com.apple.HearingModeService</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-write</key>
+	<true/>
+</dict>
+</plist>

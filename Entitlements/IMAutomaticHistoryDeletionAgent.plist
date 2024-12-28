@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.imautomatichistorydeletionagent</string>
+	<key>com.apple.CommCenter.fine-grained</key>
+	<array>
+		<string>spi</string>
+	</array>
+	<key>com.apple.private.attribution.implicitly-assumed-identity</key>
+	<dict>
+		<key>type</key>
+		<string>bundleID</string>
+		<key>value</key>
+		<string>com.apple.MobileSMS</string>
+	</dict>
+	<key>com.apple.private.imcore.imagent</key>
+	<true/>
+	<key>com.apple.private.imcore.imdpersistence.database-access</key>
+	<true/>
+	<key>com.apple.private.mobileinstall.allowedSPI</key>
+	<array>
+		<string>GetSystemAppMigrationStatus</string>
+	</array>
+	<key>com.apple.private.security.storage.Messages</key>
+	<true/>
+	<key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+	<array>
+		<string>com.apple.imagent.embedded.auth</string>
+		<string>com.apple.imagent.desktop.auth</string>
+		<string>com.apple.mobile.installd</string>
+	</array>
+</dict>
+</plist>

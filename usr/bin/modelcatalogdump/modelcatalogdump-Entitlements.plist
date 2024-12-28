@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.apple.modelcatalogtool</string>
+	<key>com.apple.application-identifier</key>
+	<string>com.apple.modelcatalogtool</string>
+	<key>com.apple.modelcatalog.full-access</key>
+	<true/>
+	<key>com.apple.private.assets.accessible-asset-types</key>
+	<array>
+		<string>com.apple.MobileAsset.UAF.FM.GenerativeModels</string>
+	</array>
+	<key>com.apple.private.assets.bypass-asset-types-check</key>
+	<true/>
+	<key>com.apple.security.exception.files.absolute-path.read-only</key>
+	<array>
+		<string>/private/var/run/MobileAssetStartupActivation.doneThisBoot</string>
+	</array>
+	<key>com.apple.security.exception.shared-preference.read-only</key>
+	<array>
+		<string>com.apple.modelcatalog.ajax</string>
+		<string>kCFPreferencesAnyApplication</string>
+	</array>
+</dict>
+</plist>
